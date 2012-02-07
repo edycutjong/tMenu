@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.ect.tmenurestaurant"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainTab"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu" android:label="@string/title_menu"/>
+        <activity android:name=".activity.InputAmountActivity" android:label="@string/title_order"/>
+        <activity android:name=".Order" android:label="@string/title_order"/>
+        <activity android:name=".Product" android:label="@string/title_product"/>
+        <activity android:name=".ProductAdd" android:label="@string/title_product_add"/>
+        <activity android:name=".ProductEdit" android:label="@string/title_product_edit"/>
+
+    </application>	
+	<uses-permission android:name="android.permission.VIBRATE"/>
+</manifest> 

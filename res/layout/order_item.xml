@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:orientation="horizontal"
+	android:padding="3px">
+	<ImageView
+		android:id="@+id/imageViewOrderStatus"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:src="@drawable/status_process_served"/>
+	<TextView
+		android:id="@+id/textViewOrderTotalAmount"
+		android:layout_width="?android:attr/listPreferredItemHeight"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="10"/>
+	<TextView
+		android:id="@+id/textViewOrderTime"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:textAppearance="?android:attr/textAppearance"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:text="10:00 AM"/>
+	<TextView
+		android:id="@+id/textViewOrderTotalPrice"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:textAppearance="?android:attr/textAppearance"
+		android:gravity="center_vertical"
+		android:text="10.000"/>
+		
+</LinearLayout>

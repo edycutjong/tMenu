@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:paddingRight="6px">
+    <TextView 
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+    	android:id="@+id/textViewMenuAmount"
+    	android:layout_width="?android:attr/listPreferredItemHeight" 
+    	android:layout_height="fill_parent"
+    	android:gravity="center"
+    	android:text="2"/>
+    <LinearLayout
+    	android:layout_weight="1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical"
+    	android:gravity="left|center">
+	    <TextView 
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+	    	android:id="@+id/textViewMenuName"
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:text="Bakso"/>
+	    <TextView 
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+	    	android:id="@+id/textViewMenuPrice" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:text="25.000"/>
+	</LinearLayout>
+    <TextView 
+	    android:textAppearance="?android:attr/textAppearance"
+    	android:id="@+id/textViewMenuTotal" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="fill_parent"
+    	android:gravity="right|center"
+    	android:text="50.000"/>
+</LinearLayout>

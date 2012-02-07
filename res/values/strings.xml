@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tMenu</string>
+    
+    <!-- TITLE -->
+    <string name="title_purchase">Purchase</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_order">Order</string>
+    <string name="title_product">Product</string>
+    <string name="title_product_add">Add Product</string>
+    <string name="title_product_edit">Edit Product</string>
+</resources>
